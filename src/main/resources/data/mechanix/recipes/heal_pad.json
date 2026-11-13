@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "SSS"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "mechanix:heal_pad",
+    "count": 2
+  }
+}
