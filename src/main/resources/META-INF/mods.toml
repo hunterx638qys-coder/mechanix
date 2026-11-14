@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/hunterx638qys-coder/mechanix/issues"
+
+[[mods]]
+modId="mechanix"
+version="2.0.0"
+displayName="Mechanix RPG"
+description='''
+RPG-мод в стиле аниме и манхвы: 14 рас, уровни и характеристики, 5 классов
+и 25 заклинаний с маной, монстры и боссы, новые руды, башни, лагеря и руины,
+книга-гайд. Меню персонажа: клавиша K, способность расы: R, заклинания: Z X C V.
+'''
+
+[[dependencies.mechanix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mechanix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
