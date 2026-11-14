@@ -199,7 +199,7 @@ public final class SpellCasting {
             SpellUtil.fx(e, MobEffects.WEAKNESS, 100, 0);
         }
         SpellUtil.particles(level, ParticleTypes.CRIT, r.pos().add(0, 0.5, 0), 40, 2.0D, 0.05D);
-        SpellUtil.sound(p, SoundEvents.COBWEB_PLACE);
+        SpellUtil.sound(p, SoundEvents.WOOL_PLACE);
         return true;
     }
 
